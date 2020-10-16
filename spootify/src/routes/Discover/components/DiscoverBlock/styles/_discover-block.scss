@@ -71,3 +71,18 @@
     }
   }
 }
+ 
+/* added style for item content */
+
+
+.discover-item__art {
+  background-repeat: no-repeat;
+  height: 125px;
+  width: 125px;
+  background-size: contain;
+  border-radius: 8px;
+}
+
+.discover-item__title {
+  text-align: center;
+}
