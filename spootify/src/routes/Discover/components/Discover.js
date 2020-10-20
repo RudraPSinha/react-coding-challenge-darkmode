@@ -44,9 +44,9 @@ function Discover() {
 
   return (
       <div className="discover">
-        <DiscoverBlock text="RELEASED THIS WEEK" id="released" data={state.newReleases} />
-        <DiscoverBlock text="FEATURED PLAYLISTS" id="featured" data={state.playlists} />
-        <DiscoverBlock text="BROWSE" id="browse" data={state.categories} imagesKey="icons" />
+        <DiscoverBlock text="RELEASED THIS WEEK" id="released" data={state.newReleases && state.newReleases} />
+        <DiscoverBlock text="FEATURED PLAYLISTS" id="featured" data={state.playlists && state.playlists} />
+        <DiscoverBlock text="BROWSE" id="browse" data={state.categories && state.categories} imagesKey="icons" />
       </div>
   )
 }
